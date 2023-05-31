@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Registration Form</title>
+</head>
+<body>
+  <h2>Reservation details:</h2>
+  <form>
+    <fieldset><!-- input type info -->
+      <p><strong>Personal Information</strong></p>
+      <div>
+        <label for=" 1st Name">First Name*</label>
+      <input id="1st Name" type="text"/>
+      <label for="2nd name">Last Name*</label>
+      <input id="2nd name" type="text"/>
+      </div><br>
+      
+      <div>
+        <label for="address 1">Address 1*</label>
+        <input id="address 1" type="text"/>
+        <label for="address 2">Address 2</label>
+        <input id="address 2" type="text"/>
+      </div><br>
+      <div>
+        <label>City*</label>
+        <input type="text"/>
+        <label>State*</label>
+        <input type="text"/>
+        <label>Zip Code*</label>
+        <input type="code"/>
+      </div>
+      <p>
+        <label>Phone*</label>
+        <input type="number"/>
+        <label>E-mail*</label>
+        <input type="mail"/>
+      </p>
+      <!-- input type booking -->
+      <p><strong>Checking Information</strong></p>
+      <p>
+        <label for="checkin date">Check-in-Date*</label>
+        <input id="checkin date" type="Date"/>
+        <label for="checkin time">Check-in-Time*</label>
+        <input id="checkin time" type="Time"/>
+        <label for="checkout date">Check-out-Date*</label>
+        <input id="checkout date" type="Date"/>
+        <label for="checkout time">Check-out-Time*</label>
+        <input id="checkout time" type="Time"/>
+        </p><br>
+        <!--input type radio  -->
+        <p>Room Performance*</p>
+        <div>
+          <input id="Standard" type="Radio" name="fav_language" />
+        <label for="Standard">Standard</label>
+        </div>
+        <div>
+          <input id="Duluxe" type="Radio"   name="fav_language" />
+          <label for="Duluxe">Duluxe</label>
+        </div>
+        <div>
+          <input id="Suite" type="Radio" name="fav_language" />
+          <label for="Suite">Suite</label>
+        </div><br>
+        <!-- input type gender -->
+        <div>
+          <p>Choose of Gender*</p>
+          <select>
+            <option>Male </option>
+            <option>Female</option>
+          </select>
+        </div><br></fieldset>
+    
+      <button type="submit">Submit your info</button>
+      
+    </form>
+  
+</body>
+</html>
